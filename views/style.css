@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap');
+
+body{
+    background: rgb(11, 58, 85);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.container{
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    width: 400px;
+    height: 440px;
+    color: aliceblue;
+    box-shadow: 0 4px 2px rgb(0, 0, 0,0.02),
+    0 8px 6px rgb(0, 0, 0,0.03),
+    0 16px 10px rgb(0, 0, 0,0.04),
+    0 26px 18px rgb(0, 0, 0,0.18);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+    left: 600px;
+    background-color: rgb(27, 100, 143);
+    width: 450px;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+.text{
+    text-align: left;
+    padding: 10px 5px;
+    margin-top: 7px;
+}
+.text-a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    left: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color:rgb(11, 58, 85);
+    font-weight: 100;
+    
+}
+.btn{
+    margin-left: 145px;
+    padding: 7px 30px;
+    color: rgb(255, 255, 255);
+}
+
+.row{
+    position: relative;
+    left: 15px;
+    width: 100%;
+    
+}
+input{
+    border-radius: 15px;
+   padding-left: 10px;
+}
+.form-select{
+    border-radius: 15px;
+    left: 7px;
+    width: 120px;
+}
+.span1{
+    margin-top: 40px;
+}
+.span1>a{
+    text-decoration: none;
+    color: white;
+    
+}
+.btn-login{
+    display: flex;
+    text-align: center;
+}
+.text-b{
+    font-weight: 100;
+}
+.display{
+    color: aliceblue;
+}
+.btn-danger{
+    margin-top: 20px;
+    display: flex;
+}
+.display-5{
+    margin-top: 10px;
+}
+.p-venkat{
+    position: absolute;
+    margin-right: 7px;
+    top: 90%;
+    left: 89%;
+    display: flex;
+    text-align: end;
+    justify-content: end;
+    color: rgba(240, 248, 255, 0.719);
+}

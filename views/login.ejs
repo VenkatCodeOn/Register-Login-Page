@@ -1,0 +1,44 @@
+
+<% if (messages.error){ %>
+    <%= messages.error %>
+    <% } %> 
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Checking</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container container-fluid ">
+           <h3 class="display"> Welcome To Login Page</h3>
+        <form action="/login" method="POST"autocomplete="off">
+            <div class="col text">
+                <input type="email" class=" col form-control text"placeholder="Email" id="email" name="email" required>
+            </div>
+             <!-- <div class="text">
+                 <label for="email" class="form-label"placeholder="name@example.com">Email</label> 
+                <input type="email" id="email" name="email" required>
+            </div> -->
+            <!-- <div class="text">
+                <label  for="password">password</label>
+                <input type="password" id="password" name="password" required>
+            </div > -->
+            <div class="col text">
+        
+                <input type="password"  class="col form-control text"placeholder="Password" id="password inputPassword4" name="password" required>
+            </div>
+            <button class="btn btn-login btn-success text" type="submit">login</button>
+            
+            
+            </form>
+         <span class="span1">Not Registered yet? <a class ="text text-b text-a badge"href="/register">Register</a></span>
+        </div>
+        <p class="p-venkat">powered by Venkatesh</p>
+    </body>
+    </html>
+    
